@@ -49,17 +49,13 @@ void printResult(vector<Node> Xod);
 //print graph at parameter
 void printGraph(vector<Node> graph);
 bool checkError(vector<Node> G);
-//"src/BarabasiAlbert_n500m1.txt
-//"src/ErdosRenyi_n500.txt
-//"src///node7.txt
-//"dataset8c_tiger/HIc.txt
 //src/WattsStrogatz_n250.txt
 //src/ForestFire_n250.txt
 
 //input file's path
-string filePath = "src/WattsStrogatz_n250.txt";
+string filePath = "src/terroristNetwork62.txt";
 //count of Critical node
-int k = 70	;
+int k = 10	;
 //iteration count of loop at CriticalNodeLS()
 int maxIter = k;
 //iteration count of loop at localSearch
