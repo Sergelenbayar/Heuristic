@@ -59,7 +59,7 @@ int k = 10	;
 //iteration count of loop at CriticalNodeLS()
 int maxIter = k;
 //iteration count of loop at localSearch
-int localSearchItr = 0;
+int localSearchItr = 2;
 
 struct Components{
 	map<int, Node> elements;
